@@ -1,0 +1,1745 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Moo, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: uGet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-09 23:01+0800\n"
+"PO-Revision-Date: 2017-12-02 22:37+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/uget/uget/language/lt/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../uget/UgetApp.c:140
+msgid "All Category"
+msgstr "Visos kategorijos"
+
+#. UGET_EVENT_NORMAL_CUSTOM
+#: ../uget/UgetEvent.c:58
+msgid "Connecting..."
+msgstr "Jungiamasi..."
+
+#. UGET_EVENT_NORMAL_CONNECT
+#: ../uget/UgetEvent.c:59
+msgid "Transmitting..."
+msgstr "Persiunčiama..."
+
+#. UGET_EVENT_NORMAL_TRANSMIT,
+#: ../uget/UgetEvent.c:60 ../ui-gtk/UgtkNodeView.c:932
+msgid "Retry"
+msgstr "Bandyti dar kartą"
+
+#. UGET_EVENT_NORMAL_RETRY,
+#: ../uget/UgetEvent.c:61
+msgid "Download completed"
+msgstr "Atsiuntimas užbaigtas"
+
+#. UGET_EVENT_NORMAL_COMPLETE,
+#: ../uget/UgetEvent.c:62 ../ui-gtk/UgtkNodeView.c:655
+msgid "Finished"
+msgstr "Užbaigta"
+
+#. UGET_EVENT_NORMAL_FINISH,
+#. resumable
+#: ../uget/UgetEvent.c:64
+msgid "Resumable"
+msgstr "Pratęsiama"
+
+#. UGET_EVENT_NORMAL_RESUMABLE,
+#: ../uget/UgetEvent.c:65 ../uget/UgetPluginAria2.c:285
+msgid "Not Resumable"
+msgstr "Nepratęsiama"
+
+#. UGET_EVENT_WARNING_CUSTOM
+#: ../uget/UgetEvent.c:73 ../uget/UgetPluginAria2.c:292
+msgid "Output file can't be renamed."
+msgstr "Išvesties failas negali būti pervadintas."
+
+#. UGET_EVENT_ERROR_CUSTOM
+#: ../uget/UgetEvent.c:81
+msgid "couldn't connect to host."
+msgstr "nepavyko prisijungti prie serverio."
+
+#. UGET_EVENT_ERROR_CONNECT_FAILED
+#: ../uget/UgetEvent.c:82 ../uget/UgetPluginAria2.c:296
+msgid "Folder can't be created."
+msgstr "Aplankas negali būti sukurtas."
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetEvent.c:83
+msgid "File can't be created (bad filename or file exist)."
+msgstr ""
+"Failas negali būti sukurtas (blogas failo pavadinimas arba failas jau yra)."
+
+#. UGET_EVENT_ERROR_FILE_CREATE_FAILED
+#: ../uget/UgetEvent.c:84
+msgid "File can't be opened."
+msgstr "Failas negali būti atvertas."
+
+#. UGET_EVENT_ERROR_FILE_OPEN_FAILED
+#: ../uget/UgetEvent.c:85
+msgid "Unable to create thread."
+msgstr "Nepavyko sukurti gijos."
+
+#. UGET_EVENT_ERROR_THREAD_CREATE_FAILED,
+#: ../uget/UgetEvent.c:86
+msgid "Incorrect source (different file size)."
+msgstr "Neteisingas šaltinis (skirtingo failo dydžiai)."
+
+#. UGET_EVENT_ERROR_INCORRECT_SOURCE,
+#: ../uget/UgetEvent.c:87
+msgid "Out of resource (disk full or run out of memory)."
+msgstr "Trūksta išteklių (diskas yra pilnas arba baigėsi atmintis)."
+
+#. UGET_EVENT_ERROR_OUT_OF_RESOURCE
+#: ../uget/UgetEvent.c:88
+msgid "No output file."
+msgstr "Nėra išvesties failo."
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_FILE
+#: ../uget/UgetEvent.c:89
+msgid "No output setting."
+msgstr "Nėra išvesties nustatymo"
+
+#. UGET_EVENT_ERROR_NO_OUTPUT_SETTING
+#: ../uget/UgetEvent.c:90
+msgid "Too many retries."
+msgstr "Per daug bandymų iš naujo."
+
+#. UGET_EVENT_ERROR_TOO_MANY_RETRIES
+#: ../uget/UgetEvent.c:91
+msgid "Unsupported scheme (protocol)."
+msgstr "Nepalaikoma schema (protokolas)."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_SCHEME
+#: ../uget/UgetEvent.c:92
+msgid "Unsupported file."
+msgstr "Nepalaikomas failas."
+
+#. UGET_EVENT_ERROR_UNSUPPORTED_FILE
+#: ../uget/UgetEvent.c:93
+msgid "post file not found."
+msgstr "nerastas post failas."
+
+#. UGET_EVENT_ERROR_POST_FILE_NOT_FOUND
+#: ../uget/UgetEvent.c:94
+msgid "cookie file not found."
+msgstr "slapukas nerastas."
+
+#: ../uget/UgetMedia-youtube.c:377
+msgid "This video has been removed."
+msgstr "Šis vaizdo įrašas buvo pašalintas."
+
+#: ../uget/UgetMedia-youtube.c:390
+msgid "Error occurred during getting video info."
+msgstr "Gaunant vaizdo įrašo informaciją, atsirado klaidų."
+
+#: ../uget/UgetMedia-youtube.c:651
+msgid "Error occurred during getting video web page."
+msgstr "Gaunant vaizdo įrašo svetainės informaciją, atsirado klaidų."
+
+#: ../uget/UgetMedia-youtube.c:757
+msgid "No video_id found in URL of YouTube."
+msgstr "YouTube URL adrese nerasta video_id."
+
+#. 1 - 10
+#: ../uget/UgetPluginAria2.c:278
+msgid "aria2: an unknown error occurred."
+msgstr "aria2: įvyko nežinoma klaida."
+
+#: ../uget/UgetPluginAria2.c:279
+msgid "aria2: time out occurred."
+msgstr "aria2: pasibaigė laikas."
+
+#: ../uget/UgetPluginAria2.c:280
+msgid "aria2: resource was not found."
+msgstr "aria2: išteklius nerastas."
+
+#: ../uget/UgetPluginAria2.c:281
+#, fuzzy
+msgid ""
+"aria2 saw the specified number of 'resource not found' error. See --max-file-"
+"not-found option"
+msgstr ""
+"aria2 pamatė \"išteklius nerastas\" nurodytą klaidos numerį. Žiūrėkite --max-"
+"file-not-found parametrą"
+
+#: ../uget/UgetPluginAria2.c:282
+msgid "aria2: speed was too slow."
+msgstr "aria2: sparta buvo pernelyg lėta."
+
+#: ../uget/UgetPluginAria2.c:283
+msgid "aria2: network problem occurred."
+msgstr "aria2: atsirado tinklo problemų."
+
+#: ../uget/UgetPluginAria2.c:284
+msgid "aria2: unfinished downloads."
+msgstr "aria2: neužbaigti atsiuntimai."
+
+#. _("Not Resumable"),
+#: ../uget/UgetPluginAria2.c:286
+msgid "Out of resource"
+msgstr "Nėra ištekliaus"
+
+#. _(),
+#: ../uget/UgetPluginAria2.c:287
+msgid "aria2: piece length was different from one in .aria2 control file."
+msgstr ""
+"aria2: dalies ilgis buvo kitoks nei tas, kuris yra .aria2 valdymo faile."
+
+#. 11 - 20
+#: ../uget/UgetPluginAria2.c:289
+msgid "aria2 was downloading same file."
+msgstr "aria2 atsiuntinėjo tą patį failą."
+
+#: ../uget/UgetPluginAria2.c:290
+msgid "aria2 was downloading same info hash torrent."
+msgstr "aria2 siuntėsi tokios pačios informacijos maišos torrent failą."
+
+#: ../uget/UgetPluginAria2.c:291
+msgid "aria2: file already existed. See --allow-overwrite option."
+msgstr "aria2: failas jau buvo. Žiūrėkite --allow-overwrite parametrą."
+
+#. _("Output file can't be renamed."),
+#: ../uget/UgetPluginAria2.c:293
+msgid "aria2: could not open existing file."
+msgstr "aria2: nepavyko atverti esamo failo."
+
+#: ../uget/UgetPluginAria2.c:294
+msgid "aria2: could not create new file or truncate existing file."
+msgstr "aria2: nepavyko sukurti naujo failo ar apkirpti esamo failo."
+
+#: ../uget/UgetPluginAria2.c:295
+msgid "aria2: file I/O error occurred."
+msgstr "aria2: įvyko failo I/O klaida."
+
+#. UGET_EVENT_ERROR_FOLDER_CREATE_FAILED
+#: ../uget/UgetPluginAria2.c:297
+msgid "aria2: name resolution failed."
+msgstr "aria2: pavadinimo rezoliucija nepavyko."
+
+#: ../uget/UgetPluginAria2.c:298
+msgid "aria2: could not parse Metalink document."
+msgstr "aria2: nepavyko išnagrinėti Metanuorodos dokumento."
+
+#. 21 - 30
+#: ../uget/UgetPluginAria2.c:300
+msgid "aria2: FTP command failed."
+msgstr "aria2: FTP komanda nepavyko."
+
+#: ../uget/UgetPluginAria2.c:301
+msgid "aria2: HTTP response header was bad or unexpected."
+msgstr "aria2: HTTP atsakymo antraštė buvo bloga arba netikėta."
+
+#: ../uget/UgetPluginAria2.c:302
+msgid "Too many redirections."
+msgstr "Per daug peradresavimų."
+
+#: ../uget/UgetPluginAria2.c:303
+msgid "aria2: HTTP authorization failed."
+msgstr "aria2: HTTP tapatybės nustatymas nepavyko."
+
+#: ../uget/UgetPluginAria2.c:304
+msgid "aria2: could not parse bencoded file(usually .torrent file)."
+msgstr ""
+"aria2: nepavyko išnagrinėti koduoto failo (dažniausiai, .torrent failo)."
+
+#: ../uget/UgetPluginAria2.c:305
+msgid "aria2: torrent file was corrupted or missing information."
+msgstr "aria2: torrent failas buvo pažeistas ar jame trūko informacijos."
+
+#: ../uget/UgetPluginAria2.c:306
+msgid "aria2: Magnet URI was bad."
+msgstr "aria2: Magnet URI buvo blogas."
+
+#: ../uget/UgetPluginAria2.c:307
+msgid ""
+"aria2: bad/unrecognized option was given or unexpected option argument was "
+"given."
+msgstr ""
+"aria2: buvo nurodytas blogas/nepažįstamas parametras ar nurodytas netikėtas "
+"parametro argumentas."
+
+#: ../uget/UgetPluginAria2.c:308
+msgid "aria2: remote server was unable to handle the request."
+msgstr "aria2: nuotoliniam serveriui nepavyko apdoroti užklausos."
+
+#: ../uget/UgetPluginAria2.c:309
+msgid "aria2: could not parse JSON-RPC request."
+msgstr "aria2: nepavyko išnagrinėti JSON-RPC užklausos."
+
+#: ../uget/UgetPluginAria2.c:312
+msgid "No response. Is aria2 shutdown?"
+msgstr "Nėra atsakymo. Ar aria2 išjungta?"
+
+#. debug
+#: ../uget/UgetPluginAria2.c:609
+msgid "aria2: gid was removed."
+msgstr "aria2: gid buvo pašalinta."
+
+#: ../uget/UgetPluginMedia.c:309
+msgid "Failed to get media link."
+msgstr "Failed gauti medijos nuorodos."
+
+#: ../uget/UgetPluginMedia.c:325
+msgid "No matched media."
+msgstr "Nėra atitinkamos medijos."
+
+#: ../uget/UgetPluginMega.c:176
+msgid "Can't handle this MEGA URL."
+msgstr ""
+
+#: ../uget/UgetPluginMega.c:220
+#, fuzzy
+msgid "Can't get download URL."
+msgstr "Sukurti naują atsiuntimą"
+
+#: ../uget/UgetPluginMega.c:667
+msgid "decrypting file..."
+msgstr ""
+
+#: ../uget/UgetPluginMega.c:769
+#, fuzzy
+msgid "decryption completed"
+msgstr "Atsiuntimas užbaigtas"
+
+#: ../ui-gtk/UgtkAboutDialog.c:46
+msgid "Download Manager"
+msgstr "Atsiuntimų tvarkytuvė"
+
+#: ../ui-gtk/UgtkAboutDialog.c:48
+msgid "translator-credits"
+msgstr "Moo"
+
+#: ../ui-gtk/UgtkAboutDialog.c:80
+msgid "uGet Founder: "
+msgstr "uGet įkūrėjas: "
+
+#: ../ui-gtk/UgtkAboutDialog.c:81
+msgid "uGet Project Manager: "
+msgstr "uGet projekto vadybininkas: "
+
+#. "↓"
+#. "↑"
+#: ../ui-gtk/UgtkApp-timeout.c:262 ../ui-gtk/UgtkTrayIcon.c:240
+msgid "tasks"
+msgstr "užduočių"
+
+#: ../ui-gtk/UgtkApp-timeout.c:399
+msgid "New from Clipboard"
+msgstr "Naujas iš iškarpinės"
+
+#: ../ui-gtk/UgtkApp-timeout.c:401 ../ui-gtk/UgtkApp.c:918
+msgid "New Download"
+msgstr "Naujos atsiuntimas"
+
+#: ../ui-gtk/UgtkApp-timeout.c:425 ../ui-gtk/UgtkApp.c:1694
+#: ../ui-gtk/UgtkSettingDialog.c:119
+msgid "Clipboard"
+msgstr "Iškarpinė"
+
+#: ../ui-gtk/UgtkApp-timeout.c:427
+msgid "Command line"
+msgstr "Komandų eilutė"
+
+#: ../ui-gtk/UgtkApp-timeout.c:780
+msgid "Error Occurred"
+msgstr "Įvyko klaida"
+
+#: ../ui-gtk/UgtkApp-timeout.c:781
+msgid "Error Occurred when downloading."
+msgstr "Atsiunčiant, įvyko klaida."
+
+#: ../ui-gtk/UgtkApp-timeout.c:782
+msgid "Download Starting"
+msgstr "Atsiuntimas pradedamas"
+
+#: ../ui-gtk/UgtkApp-timeout.c:783
+msgid "Starting download queue."
+msgstr "Pradedama atsiuntimų eilė."
+
+#: ../ui-gtk/UgtkApp-timeout.c:784
+msgid "Download Completed"
+msgstr "Atsiuntimas užbaigtas"
+
+#: ../ui-gtk/UgtkApp-timeout.c:785
+msgid "All queuing downloads have been completed."
+msgstr "Visi atsiuntimai eilėje yra užbaigti."
+
+#. ----------------------------------------------------
+#. frame for Status (start mode)
+#: ../ui-gtk/UgtkApp-ui.c:193 ../ui-gtk/UgtkDownloadForm.c:226
+#: ../ui-gtk/UgtkNodeView.c:1055
+msgid "Status"
+msgstr "Būsena"
+
+#. Summary Items - Category
+#. Download Columns - Category
+#: ../ui-gtk/UgtkApp-ui.c:195 ../ui-gtk/UgtkMenubar-ui.c:318
+#: ../ui-gtk/UgtkMenubar-ui.c:346 ../ui-gtk/UgtkMenubar-ui.c:431
+#: ../ui-gtk/UgtkNodeDialog.c:419 ../ui-gtk/UgtkNodeView.c:947
+#: ../ui-gtk/UgtkNodeView.c:1035 ../ui-gtk/UgtkSummary.c:130
+msgid "Category"
+msgstr "Kategorija"
+
+#: ../ui-gtk/UgtkApp-ui.c:279
+msgid "Create new download"
+msgstr "Sukurti naują atsiuntimą"
+
+#. New Download (accelerators)
+#. gtk_menu_shell_append ((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. New Download
+#: ../ui-gtk/UgtkApp-ui.c:289 ../ui-gtk/UgtkMenubar-ui.c:58
+#: ../ui-gtk/UgtkTrayIcon.c:59
+msgid "New _Download..."
+msgstr "Naujas _atsiuntimas..."
+
+#. New Category
+#: ../ui-gtk/UgtkApp-ui.c:300 ../ui-gtk/UgtkMenubar-ui.c:69
+msgid "New _Category..."
+msgstr "Nauja _kategorija..."
+
+#. New Clipboard batch
+#: ../ui-gtk/UgtkApp-ui.c:310 ../ui-gtk/UgtkTrayIcon.c:70
+msgid "New Clipboard _batch..."
+msgstr "Naujas paketinis atsiuntimas iš _iškarpinės..."
+
+#. New URL Sequence batch
+#: ../ui-gtk/UgtkApp-ui.c:321
+msgid "New _URL Sequence batch..."
+msgstr "Naujas _URL sekos paketinis atsiuntimas..."
+
+#. New Torrent
+#. separator
+#. gtk_menu_shell_append ((GtkMenuShell*)submenu, gtk_separator_menu_item_new() );
+#. New Torrent
+#: ../ui-gtk/UgtkApp-ui.c:335 ../ui-gtk/UgtkMenubar-ui.c:81
+#: ../ui-gtk/UgtkTrayIcon.c:83
+msgid "New Torrent..."
+msgstr "Naujas torentas..."
+
+#. New Metalink
+#: ../ui-gtk/UgtkApp-ui.c:342 ../ui-gtk/UgtkMenubar-ui.c:87
+#: ../ui-gtk/UgtkTrayIcon.c:90
+msgid "New Metalink..."
+msgstr "Nauja metanuoroda..."
+
+#: ../ui-gtk/UgtkApp-ui.c:356
+msgid "Save all settings"
+msgstr "Įrašyti visus nustatymus"
+
+#: ../ui-gtk/UgtkApp-ui.c:369
+msgid "Set selected download runnable"
+msgstr "Nustatyti pažymėtus atsiuntimus kaip paleistus"
+
+#: ../ui-gtk/UgtkApp-ui.c:379
+msgid "Set selected download to pause"
+msgstr "Nustatyti pažymėtus atsiuntimus kaip pristabdytus"
+
+#: ../ui-gtk/UgtkApp-ui.c:389
+msgid "Set selected download properties"
+msgstr "Nustatyti pažymėtų atsiuntimų savybes"
+
+#: ../ui-gtk/UgtkApp-ui.c:402
+msgid "Move selected download up"
+msgstr "Pakelti pažymėtą atsiuntimą"
+
+#: ../ui-gtk/UgtkApp-ui.c:412
+msgid "Move selected download down"
+msgstr "Nuleisti pažymėtą atsiuntimą"
+
+#: ../ui-gtk/UgtkApp-ui.c:422
+msgid "Move selected download to top"
+msgstr "Perkelti pažymėtą atsiuntimą į viršų"
+
+#: ../ui-gtk/UgtkApp-ui.c:432
+msgid "Move selected download to bottom"
+msgstr "Perkelti pažymėtą atsiuntimą į apačią"
+
+#: ../ui-gtk/UgtkApp.c:883
+msgid "New Category"
+msgstr "Nauja kategorija"
+
+#: ../ui-gtk/UgtkApp.c:897
+msgid "Copy - "
+msgstr "Kopija - "
+
+#: ../ui-gtk/UgtkApp.c:1053
+msgid "Category Properties"
+msgstr "Kategorijos savybės"
+
+#: ../ui-gtk/UgtkApp.c:1067
+msgid "Download Properties"
+msgstr "Atsiuntimo savybės"
+
+#: ../ui-gtk/UgtkApp.c:1312
+msgid "New Torrent"
+msgstr "Naujas torentas"
+
+#: ../ui-gtk/UgtkApp.c:1328
+msgid "New Metalink"
+msgstr "Nauja metanuoroda"
+
+#: ../ui-gtk/UgtkApp.c:1337
+msgid "Open Torrent file"
+msgstr "Atverti Torrent failą"
+
+#: ../ui-gtk/UgtkApp.c:1340
+msgid "Torrent file (*.torrent)"
+msgstr "Torrent failas (*.torrent)"
+
+#: ../ui-gtk/UgtkApp.c:1353
+msgid "Open Metalink file"
+msgstr "Atverti Metanuorodos failą"
+
+#: ../ui-gtk/UgtkApp.c:1393
+msgid "Failed to save category file."
+msgstr "Nepavyko įrašyti kategorijos failo."
+
+#: ../ui-gtk/UgtkApp.c:1413
+msgid "Failed to load category file."
+msgstr "Nepavyko įkelti kategorijos failo."
+
+#: ../ui-gtk/UgtkApp.c:1424
+msgid "Save Category file"
+msgstr "Įrašyti kategorijos failą"
+
+#: ../ui-gtk/UgtkApp.c:1442
+msgid "Open Category file"
+msgstr "Atverti kategorijos failą"
+
+#: ../ui-gtk/UgtkApp.c:1445
+msgid "JSON file (*.json)"
+msgstr "JSON failas (*.json)"
+
+#. add link
+#: ../ui-gtk/UgtkApp.c:1501
+msgid "Link <A>"
+msgstr "Nuoroda <A>"
+
+#. add image
+#: ../ui-gtk/UgtkApp.c:1506
+msgid "Image <IMG>"
+msgstr "Paveikslas <IMG>"
+
+#: ../ui-gtk/UgtkApp.c:1551
+msgid "Text File"
+msgstr "Tekstinis failas"
+
+#: ../ui-gtk/UgtkApp.c:1598
+msgid "Import URLs from HTML file"
+msgstr "Importuoti URL adresus iš HTML failo"
+
+#: ../ui-gtk/UgtkApp.c:1601
+msgid "HTML file (*.htm, *.html)"
+msgstr "HTML failas (*.htm, *.html)"
+
+#: ../ui-gtk/UgtkApp.c:1613
+msgid "Import URLs from text file"
+msgstr "Importuoti URL adresus iš tekstinio failo"
+
+#: ../ui-gtk/UgtkApp.c:1616
+msgid "Plain text file"
+msgstr "Grynojo teksto failas"
+
+#: ../ui-gtk/UgtkApp.c:1628
+msgid "Export URLs to text file"
+msgstr "Eksportuoti URL adresus į tekstinį failą"
+
+#: ../ui-gtk/UgtkApp.c:1647
+msgid "URL Sequence batch"
+msgstr "URL sekos paketinis atsiuntimas"
+
+#: ../ui-gtk/UgtkApp.c:1673
+msgid "No URLs found in clipboard."
+msgstr "Iškarpinėje nerasta jokių URL."
+
+#: ../ui-gtk/UgtkApp.c:1682
+msgid "All URLs had existed."
+msgstr "Visi URL jau buvo."
+
+#: ../ui-gtk/UgtkApp.c:1687
+msgid "Clipboard batch"
+msgstr "Paketinis atsiuntimas iš iškarpinės"
+
+#: ../ui-gtk/UgtkApp.c:1777
+msgid "New"
+msgstr "Naujas"
+
+#: ../ui-gtk/UgtkApp.c:1817 ../ui-gtk/UgtkMenubar.c:459
+#: ../ui-gtk/UgtkMenubar.c:490 ../ui-gtk/UgtkNodeView.c:651
+msgid "Error"
+msgstr "Klaida"
+
+#: ../ui-gtk/UgtkApp.c:1825 ../ui-gtk/UgtkSummary.c:181
+msgid "Message"
+msgstr "Žinutė"
+
+#: ../ui-gtk/UgtkApp.c:1941
+#, c-format
+msgid "Selected %d items"
+msgstr "Pažymėta %d elementų"
+
+#: ../ui-gtk/UgtkBanner.c:145 ../ui-gtk/UgtkBanner.c:165
+msgid "Attention uGetters:"
+msgstr "Dėmėsio uGet naudotojai:"
+
+#: ../ui-gtk/UgtkBanner.c:148
+msgid ""
+"we are running a Donation Drive for uGet's Future Development, please click "
+msgstr ""
+"mes vykdome paaukojimų maratoną, skirtą ateities uGet plėtojimui, prašome "
+"spustelėti "
+
+#: ../ui-gtk/UgtkBanner.c:151
+msgid "HERE"
+msgstr "ČIA"
+
+#: ../ui-gtk/UgtkBanner.c:168
+msgid "please fill out this quick User Survey for uGet."
+msgstr "prašome užpildyti šią trumpą uGet naudotojų apklausą."
+
+#: ../ui-gtk/UgtkBanner.c:171
+msgid "click here to take survey"
+msgstr "spustelėkite čia, norėdami sudalyvauti apklausoje"
+
+#: ../ui-gtk/UgtkCategoryForm.c:62
+msgid "Category _name:"
+msgstr "Kategorijos pavadi_nimas:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_active), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:82
+msgid "Active _downloads:"
+msgstr "Aktyvių _atsiuntimų:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_finished), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:92
+msgid "Capacity of Finished:"
+msgstr "Užbaigtų talpa:"
+
+#. gtk_entry_set_width_chars (GTK_ENTRY(cform->spin_recycled), 5);
+#: ../ui-gtk/UgtkCategoryForm.c:102
+msgid "Capacity of Recycled:"
+msgstr "Šiukšlinės talpa:"
+
+#. ------------------------------------------------------------------------
+#. URI Matching conditions
+#: ../ui-gtk/UgtkCategoryForm.c:111
+msgid "URI Matching conditions"
+msgstr "URI atitikimo sąlygos"
+
+#: ../ui-gtk/UgtkCategoryForm.c:118
+msgid "Matched _Hosts:"
+msgstr "Atitinkantys s_erveriai:"
+
+#: ../ui-gtk/UgtkCategoryForm.c:129
+msgid "Matched _Schemes:"
+msgstr "Atitinkančios _schemos:"
+
+#: ../ui-gtk/UgtkCategoryForm.c:140
+msgid "Matched _Types:"
+msgstr "Atitinkantys _tipai:"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:64
+msgid "Really Quit?"
+msgstr "Tikrai išeiti?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:65
+msgid "Are you sure you want to quit?"
+msgstr "Ar tikrai norite išeiti?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:69
+msgid "Really delete files?"
+msgstr "Tikrai ištrinti failus?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:70
+msgid "Are you sure you want to delete files?"
+msgstr "Ar tikrai norite ištrinti failus?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:74
+msgid "Really delete category?"
+msgstr "Tikrai ištrinti kategoriją?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:75
+msgid "Are you sure you want to delete category?"
+msgstr "Ar tikrai norite ištrinti kategoriją?"
+
+#: ../ui-gtk/UgtkConfirmDialog.c:109
+msgid "Don't ask me again"
+msgstr "Daugiau nebeklausti"
+
+#. URL - label
+#: ../ui-gtk/UgtkDownloadForm.c:111 ../ui-gtk/UgtkSequence.c:235
+msgid "_URI:"
+msgstr "_URI:"
+
+#. Mirrors - label
+#: ../ui-gtk/UgtkDownloadForm.c:130
+msgid "Mirrors:"
+msgstr "Tinklavietės:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:141
+msgid "Leave blank to use default filename ..."
+msgstr ""
+
+#. File - label
+#: ../ui-gtk/UgtkDownloadForm.c:148 ../ui-gtk/UgtkProxyForm.c:393
+msgid "File:"
+msgstr "Failas:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:168 ../ui-gtk/UgtkDownloadForm.c:905
+msgid "Select Folder"
+msgstr "Pasirinkite aplanką"
+
+#. Folder - label
+#: ../ui-gtk/UgtkDownloadForm.c:176
+msgid "_Folder:"
+msgstr "A_plankas:"
+
+#. Referrer - label
+#: ../ui-gtk/UgtkDownloadForm.c:191
+msgid "Referrer:"
+msgstr "Nukreipėjas:"
+
+#. "Max Connections:" - title label
+#: ../ui-gtk/UgtkDownloadForm.c:214
+msgid "_Max Connections:"
+msgstr "_Daugiausia sujungimų:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:232 ../ui-gtk/UgtkMenubar-ui.c:574
+msgid "_Runnable"
+msgstr "_Paleisti"
+
+#: ../ui-gtk/UgtkDownloadForm.c:234
+msgid "P_ause"
+msgstr "P_ristabdyti"
+
+#. ----------------------------------------------------
+#. frame for login
+#: ../ui-gtk/UgtkDownloadForm.c:240
+msgid "Login"
+msgstr "Prisijungimas"
+
+#. User - label
+#. user label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:254 ../ui-gtk/UgtkProxyForm.c:149
+msgid "User:"
+msgstr "Naudotojas:"
+
+#. Password - label
+#. password label & entry
+#: ../ui-gtk/UgtkDownloadForm.c:270 ../ui-gtk/UgtkProxyForm.c:160
+msgid "Password:"
+msgstr "Slaptažodis:"
+
+#. label - cookie file
+#: ../ui-gtk/UgtkDownloadForm.c:295
+msgid "Cookie file:"
+msgstr "Slapuko failas:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:312 ../ui-gtk/UgtkDownloadForm.c:961
+msgid "Select Cookie File"
+msgstr "Pasirinkite slapuko failą"
+
+#. label - post file
+#: ../ui-gtk/UgtkDownloadForm.c:321
+msgid "Post file:"
+msgstr "Post failas:"
+
+#: ../ui-gtk/UgtkDownloadForm.c:338 ../ui-gtk/UgtkDownloadForm.c:1017
+msgid "Select Post File"
+msgstr "Pasirinkite Post failą"
+
+#. label - user agent
+#: ../ui-gtk/UgtkDownloadForm.c:348
+msgid "User Agent:"
+msgstr "Naudotojo agentas:"
+
+#. Retry limit - label
+#: ../ui-gtk/UgtkDownloadForm.c:364
+msgid "Retry _limit:"
+msgstr "Bandymų iš naujo _riba:"
+
+#. counts - label
+#: ../ui-gtk/UgtkDownloadForm.c:379
+msgid "counts"
+msgstr "kartų"
+
+#. Retry delay - label
+#: ../ui-gtk/UgtkDownloadForm.c:386
+msgid "Retry _delay:"
+msgstr "Bandymų iš naujo _delsa:"
+
+#. seconds - label
+#: ../ui-gtk/UgtkDownloadForm.c:401
+msgid "seconds"
+msgstr "sek."
+
+#. label - Max upload speed
+#: ../ui-gtk/UgtkDownloadForm.c:408
+msgid "Max upload speed:"
+msgstr "Didžiausia išsiuntimo sparta:"
+
+#. label - "KiB/s"
+#: ../ui-gtk/UgtkDownloadForm.c:420 ../ui-gtk/UgtkDownloadForm.c:438
+#: ../ui-gtk/UgtkSettingForm.c:311 ../ui-gtk/UgtkSettingForm.c:323
+#: ../ui-gtk/UgtkSettingForm.c:612 ../ui-gtk/UgtkSettingForm.c:624
+msgid "KiB/s"
+msgstr "KiB/s"
+
+#. label - Max download speed
+#: ../ui-gtk/UgtkDownloadForm.c:426
+msgid "Max download speed:"
+msgstr "Didžiausia atsiuntimo sparta:"
+
+#. Retrieve timestamp
+#: ../ui-gtk/UgtkDownloadForm.c:444
+msgid "Retrieve timestamp"
+msgstr "Gauti laiko žymą"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:51
+msgid "_File"
+msgstr "_Failas"
+
+#. Batch Downloads --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:94
+msgid "_Batch Downloads"
+msgstr "_Paketiniai atsiuntimai"
+
+#. Batch downloads - Clipboard batch
+#: ../ui-gtk/UgtkMenubar-ui.c:100
+msgid "_Clipboard batch..."
+msgstr "_Paketinis atsiuntimas iš iškarpinės..."
+
+#. Batch downloads - URL Sequence batch
+#: ../ui-gtk/UgtkMenubar-ui.c:110
+msgid "_URL Sequence batch..."
+msgstr "_URL sekos paketinis atsiuntimas..."
+
+#. Batch downloads - Text file import (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:120
+msgid "_Text file import (.txt)..."
+msgstr "_Tekstinio failo importavimas (.txt)..."
+
+#. Batch downloads - HTML file import (.html)
+#: ../ui-gtk/UgtkMenubar-ui.c:130
+msgid "_HTML file import (.html)..."
+msgstr "_HTML failo importavimas (.html)..."
+
+#. Batch downloads - Export to Text file (.txt)
+#: ../ui-gtk/UgtkMenubar-ui.c:142
+msgid "_Export to Text file (.txt)..."
+msgstr "_Eksportuoti į tekstinį failą (.txt)..."
+
+#. Open Category
+#: ../ui-gtk/UgtkMenubar-ui.c:156
+msgid "_Open category..."
+msgstr "_Atverti kategoriją..."
+
+#. Save Category
+#: ../ui-gtk/UgtkMenubar-ui.c:167
+msgid "_Save category as..."
+msgstr "Į_rašyti kategoriją kaip..."
+
+#. Save All
+#: ../ui-gtk/UgtkMenubar-ui.c:178
+msgid "Save _all settings"
+msgstr "Įrašyti _visus nustatymus"
+
+#. Offline mode
+#: ../ui-gtk/UgtkMenubar-ui.c:192
+msgid "Offline Mode"
+msgstr "Autonominė veiksena"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:210
+msgid "_Edit"
+msgstr "_Taisa"
+
+#. menu.gtk_menu_shell_append((GtkMenuShell*)menu, gtk_tearoff_menu_item_new() );
+#. Settings shortcut
+#: ../ui-gtk/UgtkMenubar-ui.c:215 ../ui-gtk/UgtkTrayIcon.c:99
+msgid "Clipboard _Monitor"
+msgstr "Iškarpinės _prižiūryklė"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:219 ../ui-gtk/UgtkTrayIcon.c:103
+msgid "Clipboard works quietly"
+msgstr "Iškarpinė veikia tyliai"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:223 ../ui-gtk/UgtkTrayIcon.c:107
+msgid "Command-line works quietly"
+msgstr "Komandų eilutė veikia tyliai"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:227 ../ui-gtk/UgtkTrayIcon.c:111
+msgid "Skip existing URI"
+msgstr "Praleisti esamą URI"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:231 ../ui-gtk/UgtkSettingForm.c:223
+#: ../ui-gtk/UgtkTrayIcon.c:115
+msgid "Apply recent download settings"
+msgstr "Taikyti paskiausio atsiuntimo nustatymus"
+
+#. --- Completion Auto-Actions --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:238
+msgid "Completion _Auto-Actions"
+msgstr "_Automatiniai užbaigimo veiksmai"
+
+#. Completion Auto-Actions - Disable
+#: ../ui-gtk/UgtkMenubar-ui.c:244
+msgid "_Disable"
+msgstr "_Išjungti"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:249
+msgid "Hibernate"
+msgstr "Užmigdyti"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:254
+msgid "Suspend"
+msgstr "Pristabdyti"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:259
+msgid "Shutdown"
+msgstr "Išjungti"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:264
+msgid "Reboot"
+msgstr "Paleisti iš naujo"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:269
+msgid "Custom"
+msgstr "Pasirinktinai"
+
+#. Completion Auto-Actions - Remember
+#: ../ui-gtk/UgtkMenubar-ui.c:275
+msgid "Remember setting"
+msgstr "Prisiminti nustatymą"
+
+#. Completion Auto-Actions - Help
+#: ../ui-gtk/UgtkMenubar-ui.c:279 ../ui-gtk/UgtkMenubar-ui.c:682
+msgid "_Help"
+msgstr "Ž_inynas"
+
+#. --- Completion Auto-Actions --- end ---
+#. menu_item = gtk_menu_item_new_with_mnemonic (_("_Settings..."));
+#. Settings
+#: ../ui-gtk/UgtkMenubar-ui.c:285 ../ui-gtk/UgtkTrayIcon.c:122
+msgid "_Settings..."
+msgstr "Nu_statymai..."
+
+#: ../ui-gtk/UgtkMenubar-ui.c:304
+msgid "_View"
+msgstr "_Rodinys"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:308
+msgid "_Toolbar"
+msgstr "Į_rankių juosta"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:313
+msgid "Statusbar"
+msgstr "Būsenos juosta"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:323
+msgid "_Summary"
+msgstr "_Santrauka"
+
+#. Summary Items --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:331
+msgid "Summary _Items"
+msgstr "Santraukos _elementai"
+
+#. Summary Items - Name
+#: ../ui-gtk/UgtkMenubar-ui.c:336
+msgid "_Name"
+msgstr "Pavadi_nimas"
+
+#. Summary Items - Folder
+#: ../ui-gtk/UgtkMenubar-ui.c:341
+msgid "_Folder"
+msgstr "_Aplankas"
+
+#. Summary Items - Elapsed
+#. menu_item = gtk_check_menu_item_new_with_mnemonic (_("_Elapsed"));
+#. gtk_check_menu_item_set_active ((GtkCheckMenuItem*) menu_item, TRUE);
+#. gtk_menu_shell_append ((GtkMenuShell*) submenu, menu_item);
+#. menubar->view.summary_items.elapsed = menu_item;
+#. Summary Items - URL
+#. Download Columns - URL
+#: ../ui-gtk/UgtkMenubar-ui.c:356 ../ui-gtk/UgtkMenubar-ui.c:436
+msgid "_URL"
+msgstr "_URL"
+
+#. Summary Items - Message
+#: ../ui-gtk/UgtkMenubar-ui.c:361
+msgid "_Message"
+msgstr "_Žinutė"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:376
+msgid "Download _Columns"
+msgstr "Atsiuntimo s_tulpeliai"
+
+#. Download Columns - Complete
+#: ../ui-gtk/UgtkMenubar-ui.c:381
+msgid "_Complete"
+msgstr "_Užbaigta"
+
+#. Download Columns - Total
+#: ../ui-gtk/UgtkMenubar-ui.c:386
+msgid "_Size"
+msgstr "_Dydis"
+
+#. Download Columns - Percent (%)
+#: ../ui-gtk/UgtkMenubar-ui.c:391
+msgid "_Percent '%'"
+msgstr "_Procentai \"%\""
+
+#. Download Columns - Elapsed
+#: ../ui-gtk/UgtkMenubar-ui.c:396
+msgid "_Elapsed"
+msgstr "_Praėjęs laikas"
+
+#. Download Columns - Left
+#: ../ui-gtk/UgtkMenubar-ui.c:401
+msgid "_Left"
+msgstr "_Liko"
+
+#. Download Columns - Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:406 ../ui-gtk/UgtkNodeView.c:876
+msgid "Speed"
+msgstr "Sparta"
+
+#. Download Columns - Up Speed
+#: ../ui-gtk/UgtkMenubar-ui.c:411 ../ui-gtk/UgtkNodeView.c:890
+msgid "Up Speed"
+msgstr "Išsiuntimo sparta"
+
+#. Download Columns - Uploaded
+#: ../ui-gtk/UgtkMenubar-ui.c:416 ../ui-gtk/UgtkNodeView.c:904
+msgid "Uploaded"
+msgstr "Išsiųsta"
+
+#. Download Columns - Ratio
+#: ../ui-gtk/UgtkMenubar-ui.c:421 ../ui-gtk/UgtkNodeView.c:918
+msgid "Ratio"
+msgstr "Santykis"
+
+#. Download Columns - Retry
+#: ../ui-gtk/UgtkMenubar-ui.c:426
+msgid "_Retry"
+msgstr "_Bandyti dar kartą"
+
+#. Download Columns - Added On
+#: ../ui-gtk/UgtkMenubar-ui.c:441 ../ui-gtk/UgtkNodeView.c:975
+msgid "Added On"
+msgstr "Pridėtas"
+
+#. Download Columns - Completed On
+#: ../ui-gtk/UgtkMenubar-ui.c:446 ../ui-gtk/UgtkNodeView.c:989
+msgid "Completed On"
+msgstr "Užbaigtas"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:461
+msgid "_Category"
+msgstr "_Kategorija"
+
+#. New Category
+#: ../ui-gtk/UgtkMenubar-ui.c:466
+msgid "_New Category..."
+msgstr "_Nauja kategorija..."
+
+#. Delete Category
+#: ../ui-gtk/UgtkMenubar-ui.c:476
+msgid "_Delete Category"
+msgstr "_Ištrinti kategoriją"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:517
+msgid "_Download"
+msgstr "_Atsiuntimas"
+
+#. menu_item = gtk_image_menu_item_new_from_stock (GTK_STOCK_DELETE, accel_group);
+#: ../ui-gtk/UgtkMenubar-ui.c:529
+msgid "_Delete Entry"
+msgstr "_Ištrinti įrašą"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:540
+msgid "Delete Entry and _File"
+msgstr "Ištrinti įrašą ir _failą"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:555
+msgid "Open _Containing folder"
+msgstr "Atverti _vidinį aplanką"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:568
+msgid "Force Start"
+msgstr "Priverstinai pradėti"
+
+#. Move to --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:596
+msgid "_Move To"
+msgstr "_Perkelti į"
+
+#. Priority --- start ---
+#: ../ui-gtk/UgtkMenubar-ui.c:645
+msgid "Priority"
+msgstr "Pirmenybė"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:654
+msgid "_High"
+msgstr "_Aukšta"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:659
+msgid "_Normal"
+msgstr "_Normali"
+
+#: ../ui-gtk/UgtkMenubar-ui.c:664
+msgid "_Low"
+msgstr "Že_ma"
+
+#. Get Help Online
+#: ../ui-gtk/UgtkMenubar-ui.c:687
+msgid "Get Help Online"
+msgstr "Rodyti žinyną internete"
+
+#. Documentation
+#: ../ui-gtk/UgtkMenubar-ui.c:698
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#. Support Forum
+#: ../ui-gtk/UgtkMenubar-ui.c:709
+msgid "Support Forum"
+msgstr "Palaikymo forumas"
+
+#. Submit Feedback
+#: ../ui-gtk/UgtkMenubar-ui.c:720
+msgid "Submit Feedback"
+msgstr "Pateikti atsiliepimą"
+
+#. Report a Bug
+#: ../ui-gtk/UgtkMenubar-ui.c:731
+msgid "Report a Bug"
+msgstr "Pranešti apie klaidą"
+
+#. Keyboard Shortcuts
+#: ../ui-gtk/UgtkMenubar-ui.c:742
+msgid "Keyboard Shortcuts"
+msgstr "Spartieji klavišai"
+
+#. Check for Updates
+#: ../ui-gtk/UgtkMenubar-ui.c:749
+msgid "Check for Updates"
+msgstr "Tikrinti ar yra atnaujinimų"
+
+#: ../ui-gtk/UgtkMenubar.c:187
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: ../ui-gtk/UgtkMenubar.c:453
+#, c-format
+msgid "Can't launch default application for file '%s'."
+msgstr "Nepavyksta paleisti numatytosios programos failui \"%s\"."
+
+#: ../ui-gtk/UgtkMenubar.c:484
+#, c-format
+msgid "'%s' - This folder does not exist."
+msgstr "\"%s\" - Šio aplanko nėra."
+
+#. title
+#: ../ui-gtk/UgtkNodeDialog.c:220 ../ui-gtk/UgtkNodeDialog.c:224
+msgid "URI had existed"
+msgstr "URI jau buvo"
+
+#: ../ui-gtk/UgtkNodeDialog.c:222
+msgid "This URI had existed, are you sure to continue?"
+msgstr "Šis URI jau buvo, ar tikrai norite tęsti?"
+
+#: ../ui-gtk/UgtkNodeDialog.c:360
+msgid "General"
+msgstr "Bendros"
+
+#: ../ui-gtk/UgtkNodeDialog.c:362
+msgid "Advanced"
+msgstr "Išplėstinės"
+
+#: ../ui-gtk/UgtkNodeDialog.c:371
+msgid "Category settings"
+msgstr "Kategorijos nustatymai"
+
+#: ../ui-gtk/UgtkNodeDialog.c:373
+msgid "Default for new download 1"
+msgstr "Numatytieji naujam atsiuntimui 1"
+
+#: ../ui-gtk/UgtkNodeDialog.c:375
+msgid "Default 2"
+msgstr "Numatytieji 2"
+
+#: ../ui-gtk/UgtkNodeView.c:145 ../ui-gtk/UgtkNodeView.c:619
+#: ../ui-gtk/UgtkSummary.c:106
+msgid "unnamed"
+msgstr "be pavadinimo"
+
+#: ../ui-gtk/UgtkNodeView.c:652
+msgid "Paused"
+msgstr "Pristabdyti"
+
+#: ../ui-gtk/UgtkNodeView.c:653
+msgid "Uploading"
+msgstr "Išsiunčiama"
+
+#: ../ui-gtk/UgtkNodeView.c:654
+msgid "Completed"
+msgstr "Užbaigta"
+
+#: ../ui-gtk/UgtkNodeView.c:656
+msgid "Recycled"
+msgstr "Šiukšlinėje"
+
+#: ../ui-gtk/UgtkNodeView.c:657
+msgid "Queuing"
+msgstr "Eilėje"
+
+#: ../ui-gtk/UgtkNodeView.c:658
+msgid "Active"
+msgstr "Aktyvūs"
+
+#: ../ui-gtk/UgtkNodeView.c:680
+msgid "All Status"
+msgstr "Visos būsenos"
+
+#: ../ui-gtk/UgtkNodeView.c:788 ../ui-gtk/UgtkSettingDialog.c:101
+#: ../ui-gtk/UgtkSummary.c:99
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: ../ui-gtk/UgtkNodeView.c:805
+msgid "Complete"
+msgstr "Užbaigta"
+
+#: ../ui-gtk/UgtkNodeView.c:819
+msgid "Size"
+msgstr "Dydis"
+
+#: ../ui-gtk/UgtkNodeView.c:834
+msgid "%"
+msgstr "%"
+
+#: ../ui-gtk/UgtkNodeView.c:848
+msgid "Elapsed"
+msgstr "Praėjęs laikas"
+
+#: ../ui-gtk/UgtkNodeView.c:862
+msgid "Left"
+msgstr "Liko"
+
+#: ../ui-gtk/UgtkNodeView.c:961 ../ui-gtk/UgtkSettingForm.c:584
+#: ../ui-gtk/UgtkSummary.c:148
+msgid "URI"
+msgstr "URI"
+
+#: ../ui-gtk/UgtkNodeView.c:1012
+msgid "Quantity"
+msgstr "Kiekis"
+
+#. proxy type label & combo box
+#: ../ui-gtk/UgtkProxyForm.c:64
+msgid "Proxy:"
+msgstr "Įgaliotasis serveris:"
+
+#: ../ui-gtk/UgtkProxyForm.c:67
+msgid "Don't use"
+msgstr "Nenaudoti"
+
+#: ../ui-gtk/UgtkProxyForm.c:69
+msgid "Default"
+msgstr "Numatytasis"
+
+#. host label & entry
+#: ../ui-gtk/UgtkProxyForm.c:121
+msgid "Host:"
+msgstr "Serveris:"
+
+#. port label & entry
+#: ../ui-gtk/UgtkProxyForm.c:132
+msgid "Port:"
+msgstr "Prievadas:"
+
+#: ../ui-gtk/UgtkProxyForm.c:359
+msgid "Socket:"
+msgstr "Lizdas:"
+
+#: ../ui-gtk/UgtkProxyForm.c:369
+msgid "Socket args:"
+msgstr "Lizdo argumentai:"
+
+#: ../ui-gtk/UgtkProxyForm.c:379
+msgid "Element:"
+msgstr "Elementas:"
+
+#: ../ui-gtk/UgtkScheduleForm.c:57
+msgid "Mon"
+msgstr "Pir"
+
+#: ../ui-gtk/UgtkScheduleForm.c:58
+msgid "Tue"
+msgstr "Ant"
+
+#: ../ui-gtk/UgtkScheduleForm.c:59
+msgid "Wed"
+msgstr "Tre"
+
+#: ../ui-gtk/UgtkScheduleForm.c:60
+msgid "Thu"
+msgstr "Ket"
+
+#: ../ui-gtk/UgtkScheduleForm.c:61
+msgid "Fri"
+msgstr "Pen"
+
+#: ../ui-gtk/UgtkScheduleForm.c:62
+msgid "Sat"
+msgstr "Šeš"
+
+#: ../ui-gtk/UgtkScheduleForm.c:63
+msgid "Sun"
+msgstr "Sek"
+
+#: ../ui-gtk/UgtkScheduleForm.c:104
+msgid "_Enable Scheduler"
+msgstr "Į_jungti planuoklę"
+
+#. Turn off - label
+#: ../ui-gtk/UgtkScheduleForm.c:154
+msgid "Turn off"
+msgstr "Išjungti"
+
+#. Turn off - help label
+#: ../ui-gtk/UgtkScheduleForm.c:159
+msgid "- stop all task"
+msgstr "- stabdyti visas užduotis"
+
+#. Normal - label
+#: ../ui-gtk/UgtkScheduleForm.c:169
+msgid "Normal"
+msgstr "Įprasta"
+
+#. Normal - help label
+#: ../ui-gtk/UgtkScheduleForm.c:174
+msgid "- run task normally"
+msgstr "- vykdyti užduotis įprastai"
+
+#: ../ui-gtk/UgtkSelector.c:254
+msgid "All"
+msgstr "Visi"
+
+#: ../ui-gtk/UgtkSelector.c:259 ../ui-gtk/UgtkSequence.c:59
+msgid "None"
+msgstr "Joks"
+
+#: ../ui-gtk/UgtkSelector.c:276
+msgid "Mark by filter"
+msgstr "Žymėti pagal filtrą"
+
+#: ../ui-gtk/UgtkSelector.c:294
+msgid "Mark URLs by host AND filename extension."
+msgstr "Žymėti URL adresus pagal serverį IR failo prievardį."
+
+#: ../ui-gtk/UgtkSelector.c:297
+msgid "This will reset all marks of URLs."
+msgstr "Tai atstatys visus URL adresų žymėjimus."
+
+#. filter view -----------------------
+#. left side
+#: ../ui-gtk/UgtkSelector.c:305
+msgid "Host"
+msgstr "Serveris"
+
+#. right side (filename extension)
+#: ../ui-gtk/UgtkSelector.c:309
+msgid "File Ext."
+msgstr "Failo prievardis"
+
+#: ../ui-gtk/UgtkSelector.c:449
+msgid "URL"
+msgstr "URL"
+
+#: ../ui-gtk/UgtkSelector.c:781
+msgid "Base hypertext reference"
+msgstr "Bazinė hiperteksto nuoroda"
+
+#. select all
+#: ../ui-gtk/UgtkSelector.c:797
+msgid "Mark _All"
+msgstr "Žymėti _visus"
+
+#. select none
+#: ../ui-gtk/UgtkSelector.c:801
+msgid "Mark _None"
+msgstr "Nuimti žymėjimą _nuo visų"
+
+#. select by filter
+#: ../ui-gtk/UgtkSelector.c:805
+msgid "_Mark by filter..."
+msgstr "Ž_ymėti pagal filtrą..."
+
+#: ../ui-gtk/UgtkSequence.c:61
+msgid "Num"
+msgstr ""
+
+#: ../ui-gtk/UgtkSequence.c:63
+msgid "Char"
+msgstr ""
+
+#. Label - To
+#: ../ui-gtk/UgtkSequence.c:89
+msgid "To:"
+msgstr "Iki:"
+
+#. label - digits
+#: ../ui-gtk/UgtkSequence.c:104
+msgid "digits:"
+msgstr "skaitmenys:"
+
+#. label - case-sensitive
+#: ../ui-gtk/UgtkSequence.c:128
+msgid "case-sensitive"
+msgstr "skiriant raidžių dydį"
+
+#. e.g.
+#: ../ui-gtk/UgtkSequence.c:246
+msgid "e.g."
+msgstr "pvz.,"
+
+#: ../ui-gtk/UgtkSequence.c:295
+#, fuzzy
+msgid "URI is not valid."
+msgstr "URL yra neteisingas."
+
+#: ../ui-gtk/UgtkSequence.c:303
+#, fuzzy
+msgid "No wildcard(*) character in URI entry."
+msgstr "URL įraše nėra pakaitos simbolio(*)."
+
+#: ../ui-gtk/UgtkSequence.c:311
+msgid "No character in 'From' or 'To' entry."
+msgstr "\"Nuo\" ar \"Iki\" įraše nėra simbolio."
+
+#: ../ui-gtk/UgtkSequence.c:393
+msgid "Preview"
+msgstr "Peržiūra"
+
+#: ../ui-gtk/UgtkSettingDialog.c:113
+msgid "User Interface"
+msgstr "Naudotojo sąsaja"
+
+#: ../ui-gtk/UgtkSettingDialog.c:125
+msgid "Bandwidth"
+msgstr "Siuntimo sparta"
+
+#: ../ui-gtk/UgtkSettingDialog.c:131
+msgid "Scheduler"
+msgstr "Planuoklė"
+
+#: ../ui-gtk/UgtkSettingDialog.c:137
+msgid "Plug-in"
+msgstr "Įskiepis"
+
+#: ../ui-gtk/UgtkSettingDialog.c:143
+msgid "Media website"
+msgstr "Medijos svetainė"
+
+#: ../ui-gtk/UgtkSettingDialog.c:149
+msgid "Others"
+msgstr "Kiti"
+
+#. Monitor button
+#: ../ui-gtk/UgtkSettingForm.c:61
+msgid "_Enable clipboard monitor"
+msgstr "Į_jungti iškarpinės prižiūryklę"
+
+#. quiet mode
+#: ../ui-gtk/UgtkSettingForm.c:66
+msgid "_Quiet mode"
+msgstr "_Tylioji veiksena"
+
+#: ../ui-gtk/UgtkSettingForm.c:72 ../ui-gtk/UgtkSettingForm.c:488
+msgid "Default category index"
+msgstr "Numatytoji kategorijos rodyklė"
+
+#: ../ui-gtk/UgtkSettingForm.c:84 ../ui-gtk/UgtkSettingForm.c:500
+msgid "Adding to Nth category if no matched category."
+msgstr "Jei nėra atitinkamos kategorijos, pridedama į N-tą kategorija."
+
+#. media or storage website
+#: ../ui-gtk/UgtkSettingForm.c:90
+#, fuzzy
+msgid "_Monitor URL of website"
+msgstr "_Stebėti medijos svetainių URL"
+
+#: ../ui-gtk/UgtkSettingForm.c:105
+msgid "Monitor clipboard for specified file types:"
+msgstr "Iškarpinėje stebėti nurodytus failų tipus:"
+
+#: ../ui-gtk/UgtkSettingForm.c:125
+msgid "Separate the types with character '|'."
+msgstr "Atskirkite tipus, naudodami \"|\" simbolį."
+
+#: ../ui-gtk/UgtkSettingForm.c:130
+msgid "You can use regular expressions here."
+msgstr "Čia galite naudoti reguliariuosius reiškinius."
+
+#: ../ui-gtk/UgtkSettingForm.c:176
+msgid "Confirmation"
+msgstr "Patvirtinimas"
+
+#. Confirmation check buttons
+#: ../ui-gtk/UgtkSettingForm.c:182
+msgid "Show confirmation dialog on exit"
+msgstr "Išeinant, rodyti patvirtinimo dialogą"
+
+#: ../ui-gtk/UgtkSettingForm.c:185
+msgid "Confirm when deleting files"
+msgstr "Ištrinant failus, klausti patvirtinimo"
+
+#: ../ui-gtk/UgtkSettingForm.c:191
+msgid "System Tray"
+msgstr "Sistemos dėklas"
+
+#. System Tray check buttons
+#: ../ui-gtk/UgtkSettingForm.c:197
+msgid "Always show tray icon"
+msgstr "Visada rodyti dėklo piktogramą"
+
+#: ../ui-gtk/UgtkSettingForm.c:200
+msgid "Minimize to tray on startup"
+msgstr "Paleidus programą, suskleisti į sistemos dėklą"
+
+#: ../ui-gtk/UgtkSettingForm.c:203
+msgid "Close to tray on window close"
+msgstr "Užvėrus langą, suskleisti į dėklą"
+
+#: ../ui-gtk/UgtkSettingForm.c:207
+msgid "Use Ubuntu's App Indicator"
+msgstr "Naudoti Ubuntu programų indikatorių"
+
+#: ../ui-gtk/UgtkSettingForm.c:214
+msgid "Enable offline mode on startup"
+msgstr "Paleidimo metu įjungti autonominę veikseną"
+
+#: ../ui-gtk/UgtkSettingForm.c:217
+msgid "Download starting notification"
+msgstr "Pranešimas apie pradedamą atsiuntimą"
+
+#: ../ui-gtk/UgtkSettingForm.c:220
+msgid "Sound when download is finished"
+msgstr "Užbaigus atsiuntimą, groti garsą"
+
+#. widget = gtk_check_button_new_with_label (_("Skip existing URI from clipboard and command-line"));
+#. uiform->skip_existing = (GtkToggleButton*) widget;
+#. gtk_box_pack_start (vbox, widget, FALSE, FALSE, 1);
+#: ../ui-gtk/UgtkSettingForm.c:229
+msgid "Display large icon"
+msgstr "Rodyti dideles piktogramas"
+
+#: ../ui-gtk/UgtkSettingForm.c:295
+msgid "These will affect all plug-ins."
+msgstr "Tai paveiks visus įskiepius."
+
+#. Global speed limit
+#: ../ui-gtk/UgtkSettingForm.c:301
+msgid "Global speed limit"
+msgstr "Visuotiniai spartos apribojimai"
+
+#: ../ui-gtk/UgtkSettingForm.c:309 ../ui-gtk/UgtkSettingForm.c:610
+msgid "Max upload speed"
+msgstr "Didžiausia išsiuntimo sparta"
+
+#: ../ui-gtk/UgtkSettingForm.c:321 ../ui-gtk/UgtkSettingForm.c:622
+msgid "Max download speed"
+msgstr "Didžiausia atsiuntimo sparta"
+
+#: ../ui-gtk/UgtkSettingForm.c:354
+msgid "Completion Auto-Actions"
+msgstr "Automatiniai užbaigimo veiksmai"
+
+#: ../ui-gtk/UgtkSettingForm.c:362
+msgid "Custom command:"
+msgstr "Pasirinktinė komanda:"
+
+#: ../ui-gtk/UgtkSettingForm.c:374
+#, fuzzy
+msgid "Custom command if error occurred:"
+msgstr "Pasirinktinė komanda, įvykus klaidai:"
+
+#: ../ui-gtk/UgtkSettingForm.c:424
+msgid "_Autosave"
+msgstr "_Automatinis įrašymas"
+
+#. auto save interval label
+#: ../ui-gtk/UgtkSettingForm.c:435
+msgid "_Interval:"
+msgstr "_Intervalas:"
+
+#. auto save interval unit label
+#: ../ui-gtk/UgtkSettingForm.c:446
+msgid "minutes"
+msgstr "minutės"
+
+#. Commandline Settings
+#: ../ui-gtk/UgtkSettingForm.c:475
+msgid "Commandline Settings"
+msgstr "Komandų eilutės nustatymai"
+
+#. --quiet
+#: ../ui-gtk/UgtkSettingForm.c:482
+msgid "Use '--quiet' by default"
+msgstr "Pagal numatymą, naudoti \"--quiet\""
+
+#: ../ui-gtk/UgtkSettingForm.c:554
+msgid "Plug-in matching order:"
+msgstr "Įskiepio atitikimo tvarka:"
+
+#: ../ui-gtk/UgtkSettingForm.c:577
+msgid "Aria2 plug-in options"
+msgstr "Aria2 įskiepio parametrai"
+
+#: ../ui-gtk/UgtkSettingForm.c:593
+msgid "RPC authorization secret token"
+msgstr "Slaptas RPC prieigos teisių prieigos raktas"
+
+#. ------------------------------------------------------------------------
+#. Speed Limits
+#: ../ui-gtk/UgtkSettingForm.c:602
+msgid "Global speed limit for aria2 only"
+msgstr "Visuotinis spartos apribojimas, skirtas tik aria2"
+
+#. ------------------------------------------------------------------------
+#. aria2 works on local device
+#. launch
+#: ../ui-gtk/UgtkSettingForm.c:635
+msgid "_Launch aria2 on startup"
+msgstr "Pa_leidžiant programą, paleisti aria2"
+
+#. shutdown
+#: ../ui-gtk/UgtkSettingForm.c:641
+msgid "_Shutdown aria2 on exit"
+msgstr "_Išeinant iš programos, išjungti aria2"
+
+#. ------------------------------------------------------------------------
+#. Local options
+#: ../ui-gtk/UgtkSettingForm.c:647
+msgid "Launch aria2 on local device"
+msgstr "Paleisti aria2 vietiniame įrenginyje"
+
+#: ../ui-gtk/UgtkSettingForm.c:656
+msgid "Path"
+msgstr "Kelias"
+
+#: ../ui-gtk/UgtkSettingForm.c:674
+msgid "Arguments"
+msgstr "Argumentai"
+
+#. Arguments - hint
+#: ../ui-gtk/UgtkSettingForm.c:679
+msgid "You must restart uGet after modifying it."
+msgstr "Juos modifikavę, privalote paleisti uGet iš naujo."
+
+#: ../ui-gtk/UgtkSettingForm.c:783
+msgid "Media matching mode:"
+msgstr "Medijos atitikimo veiksena:"
+
+#: ../ui-gtk/UgtkSettingForm.c:788
+#, fuzzy
+msgid "Don't match"
+msgstr "Nenaudoti"
+
+#: ../ui-gtk/UgtkSettingForm.c:790
+#, fuzzy
+msgid "Match 1 condition"
+msgstr "Atitikimo sąlygos"
+
+#: ../ui-gtk/UgtkSettingForm.c:792
+#, fuzzy
+msgid "Match 2 condition"
+msgstr "Atitikimo sąlygos"
+
+#: ../ui-gtk/UgtkSettingForm.c:794
+#, fuzzy
+msgid "Near quality"
+msgstr "Kokybė:"
+
+#: ../ui-gtk/UgtkSettingForm.c:801
+msgid "Match conditions"
+msgstr "Atitikimo sąlygos"
+
+#. Quality
+#: ../ui-gtk/UgtkSettingForm.c:810
+msgid "Quality:"
+msgstr "Kokybė:"
+
+#. Type
+#: ../ui-gtk/UgtkSettingForm.c:830
+msgid "Type:"
+msgstr "Tipas:"
+
+#: ../ui-gtk/UgtkSummary.c:103
+msgid "File"
+msgstr "Failas"
+
+#: ../ui-gtk/UgtkSummary.c:118
+msgid "Folder"
+msgstr "Aplankas"
+
+#: ../ui-gtk/UgtkSummary.c:267
+msgid "Item"
+msgstr "Elementas"
+
+#: ../ui-gtk/UgtkSummary.c:272
+msgid "Value"
+msgstr "Reikšmė"
+
+#. Copy All
+#: ../ui-gtk/UgtkSummary.c:304
+msgid "Copy _All"
+msgstr "Kopijuoti viską"
+
+#. Show window
+#: ../ui-gtk/UgtkTrayIcon.c:141
+msgid "Show window"
+msgstr "Rodyti langą"
+
+#. Offline mode
+#: ../ui-gtk/UgtkTrayIcon.c:147
+msgid "_Offline Mode"
+msgstr "_Autonominė veiksena"
+
+#~ msgid ""
+#~ "Password Manager Daemon: uget\n"
+#~ "\n"
+#~ "While attempting an SSH connection to %s there was a problem verifying "
+#~ "it's hostkey against the known and trusted hosts file because it's "
+#~ "hostkey was not found.\n"
+#~ "\n"
+#~ "Would you like to treat this connection as trusted for this and future "
+#~ "connections by adding %s's hostkey to the known hosts file?"
+#~ msgstr ""
+#~ "Slaptažodžių tvarkytuvės tarnyba: uget\n"
+#~ "\n"
+#~ "Bandant SSH ryšį su serveriu %s atsirado problemų patvirtinant jo "
+#~ "serverio raktą ir lyginant šį raktą su žinomų ir patikimų serverių failu, "
+#~ "nes jo serverio raktas nebuvo rastas.\n"
+#~ "\n"
+#~ "Ar norėtumėte šiam ir ateityje užmezgiamiems ryšiams laikyti šį ryšį kaip "
+#~ "patikimą, pridedant %s serverio raktą į žinomų serverių failą?"
+
+#~ msgid "_From:"
+#~ msgstr "_Nuo:"
+
+#~ msgid "F_rom:"
+#~ msgstr "N_uo:"
